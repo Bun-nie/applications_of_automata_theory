@@ -72,8 +72,8 @@ int main(){
         cout<<"[Enter 'exit' to exit loop]"<<endl<<"Enter String: ";
         cin>>ip;
         bool accepted = fsm.determine(ip);
-        if(accepted) cout<<"Accepted"<<endl;
-        else cout<<"Not Accepted"<<endl;
+        if(accepted) cout<<"Accepted"<<endl<<"-----"<<endl;
+        else cout<<"Not Accepted"<<endl<<"-----"<<endl;
     } while (ip != "exit");
     
     cout<<"Program Terminated..."<<endl;

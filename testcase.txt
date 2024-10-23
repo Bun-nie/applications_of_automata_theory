@@ -1,0 +1,22 @@
+TEST CASES
+---------------------
+Accepted:
+- b
+- bbb
+- aba
+- ababb
+- bbbbbbbabba
+- aabbaabbaab
+(passed all)
+
+Not Accepted:
+- a
+- aa
+- aabb
+- ba
+- ababa
+- baba
+- bbbb
+(passed all)
+
+Or you can test your own:>
